@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6dada">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.android.sj.fitnesscompanion.Veg_diet">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vegetarian Diet"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="0sp"
+        android:layout_height="200sp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fit2"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:text="Fruits and vegetables are an important part of any balanced diet.Eating a diet rich in vegetables and fruits as part of an overall healthy diet may reduce risk for heart disease, including heart attack and stroke. Eating a diet rich in some vegetables and fruits may protect against certain types of cancers."/>
+</LinearLayout>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Calcium"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+       android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Calcium is important because it strengthens our bones.  Most people associate calcium with milk and cheese, but these are not the only sources of the important mineral. Leafy green vegetables are one of the most popular sources of calcium among vegetarians.  Broccoli and beans are also rich in calcium." />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Protein"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="A common myth about vegetarianism is that it is extremely difficult to get enough protein.Plant proteins can also be healthier, because they do not come with the large amounts of fat and cholesterol that animal proteins sometimes do.
+
+Beans are a great source of protein for vegetarians.  Grains, nuts, and seeds are also protein-rich.  Even many vegetables, such as corn, provide a large amount of protein."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vitamins"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="  Fruits and vegetables are loaded with them, and many of these foods have several different vitamins in one delicious package.  But there are a few vitamins that vegetarians need to take extra care to include in their diets:\n
+        1.Vitamin B12 is one important vitamin that is usually obtained through meat, eggs or dairy products.  Lacto and ovo-lacto vegetarians do not need to worry about getting enough B12 in their diets.  Vegans, on the other hand, might want to consider taking B12 supplements.\n
+        2.Vitamin D is also often lacking in vegan diets.  Those who consume dairy products that are fortified with Vitamin D do not have to worry about it, but strict vegans usually don’t get much of the important nutrient.  Two solutions are to get plenty of sunshine, which causes our bodies to create Vitamin D on their own, or to take Vitamin D supplements."
+        />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6dada">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.android.sj.fitnesscompanion.Veg_diet">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Non-Vegetarian Diet"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0sp"
+                android:layout_height="200sp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/nonvegpng" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:text="Eating non-veg foods have countless health benefits as they are excellent source of the high quality protein, healthy fat, vitamins and minerals including all the essential amino acids which body requires for important functioning. " />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Protein "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Whoever told you that you cannot have a weight loss diet plan without chicken was wrong.
+            When it comes to protein, non-vegetarians have loads of options such as meat, eggs, fish and dairy products. But it is also important for one to know the right quantity of protein that should typically be consumed in a day.on an average one should consume 1.0g protein per  kg of your body weight. For someone who is into weight training, the protein consumption varies according to the workout intensity. It can vary from 1.5g to 2.5g lean body mass." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valuable source for nutrients"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text=" It is an excellent source of complete protein, containing all the amino acids that a body needs to develop and maintain muscles. It is also an excellent source of heme iron (which is very readily absorbed by the body) and Vitamin B12. " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do's and don'ts"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="- Eat red meat in moderation, maybe once a fortnight especially if you are health conscious, have coronary artery disease or any heart health issues like high cholesterol, are watching your weight or are not into heavy exercising.\n
+- If you are an adult and leading a very sedentary life, restrict your egg intake to only one or two full eggs in the week. Stick to egg whites otherwise.\n
+ - Opt for more fish and white meat like chicken or turkey. But make sure you eat the lean cuts of meat. Also, trim off all the visible fat. In addition, use healthy cooking methods. Avoid deep frying them.\n
+- Boiling or poaching eggs and fish is better than frying them. Frying destroys some of their proteins and also makes them more difficult to digest.\n
+- Drink plenty of water as proteins are thermogenic foods that release heat and are tougher to digest.\n
+ - Avoid eating fruits with any meat as it gets fermented and can cause bloating and indigestion.\n
+ - Do not have meat if your uric acid levels are high." />
+        </LinearLayout>
+    </ScrollView>

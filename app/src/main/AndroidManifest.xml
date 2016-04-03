@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.sj.fitnesscompanion">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fiticon3"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Chest" />
+        <activity android:name=".List_chest" />
+        <activity android:name=".Decline_pushup" />
+        <activity android:name=".Knee_pushup" />
+        <activity android:name=".List_Shoulder" />
+        <activity android:name=".Lateral_raises" />
+        <activity android:name=".Bent_raises" />
+        <activity android:name=".Rotator_cuffs" />
+        <activity android:name=".List_abs" />
+        <activity android:name=".Abs_crunches1" />
+        <activity android:name=".Leg_elevation" />
+        <activity android:name=".Abs_crunches2" />
+        <activity android:name=".List_arms" />
+        <activity android:name=".Biceps_curls" />
+        <activity android:name=".Concent_curl" />
+        <activity android:name=".Hammer_curl" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".Veg_diet" />
+        <activity android:name=".Nonveg_diet"></activity>
+    </application>
+
+</manifest>

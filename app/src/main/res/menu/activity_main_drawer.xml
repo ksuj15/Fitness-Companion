@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Exercises" />
+
+        <item
+            android:id="@+id/nav_chest"
+            android:icon="@drawable/chestpng"
+            android:title="Chest" />
+        <item
+            android:id="@+id/nav_shoulders"
+            android:icon="@drawable/shoulderpng"
+            android:title="Shoulders" />
+        <item
+            android:id="@+id/nav_abs"
+            android:icon="@drawable/abs"
+            android:title="ABS" />
+        <item
+            android:id="@+id/nav_arms"
+            android:icon="@drawable/biceps"
+            android:title="Arms" />
+    </group>
+
+    <item android:title="Diet">
+        <menu>
+            <item
+                android:id="@+id/nav_veg"
+                android:icon="@drawable/carrot"
+                android:title="Vegan Diet" />
+            <item
+                android:id="@+id/nav_nonveg"
+                android:icon="@drawable/non_veg"
+                android:title="Non-Veg Diet" />
+        </menu>
+    </item>
+
+</menu>
+
